@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T03:14:09.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ElOgz43-Ze39k6IVWQ1d" version="21.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-06T11:32:45.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oYYxUjLHo_-uu5rHZkGa" version="21.1.4" type="github" pages="4">
   <diagram name="第 1 页" id="yRTcvgwqnwbz2P0TRHEY">
     <mxGraphModel dx="1674" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,18 +136,67 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y6xcKWJjnnKYyva7bDXR" name="第 4 页">
-    <mxGraphModel dx="683" dy="2702" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="2865" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-7" value="提取inp文件表面节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="267" y="-2025" width="120" height="37" as="geometry" />
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-42" target="Yvesvv5T-Nlvdv2TcPlf-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-25" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#994C00;strokeColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="387" y="-2076.75" width="57" height="140.5" as="geometry" />
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-37" target="Yvesvv5T-Nlvdv2TcPlf-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-26" value="定义函数inpReader&lt;br&gt;处理原始inp文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="444" y="-2097" width="120" height="37" as="geometry" />
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-37" value="定义.py文件inpReader&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;处理原始inp文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="482" y="-2171" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="-2169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-38" value="提取inp文件表面节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="482" y="-2224" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-39" target="Yvesvv5T-Nlvdv2TcPlf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-39" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="482" y="-2278" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-44" target="Yvesvv5T-Nlvdv2TcPlf-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="619" y="-1969" />
+              <mxPoint x="619" y="-2201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-44" value="定义inpProcessPart将PART模块单独拿出转化成定义的Part类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="482" y="-1999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-45" target="Yvesvv5T-Nlvdv2TcPlf-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-45" value="定义objExporter将无GUI运行ABAQUS导出对应obj文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="646" y="-2231" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-48" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="646" y="-1953" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-42" value="定义getInpBlocks&lt;span style=&quot;border-color: var(--border-color); text-align: left; background-color: initial;&quot;&gt;获取inp文件中PART、ASSEMBLY、STEP等块与子块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="482" y="-2079" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-60" target="Yvesvv5T-Nlvdv2TcPlf-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-60" value="定义changeOBJ重写ABAQUS导出的obj文件，添加颜色属性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="646" y="-2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yvesvv5T-Nlvdv2TcPlf-62" target="Yvesvv5T-Nlvdv2TcPlf-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-62" value="调用MeshLab包，应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;gradientColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="646" y="-2046" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
