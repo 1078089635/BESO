@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T01:08:51.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WWrCmj9pLYLThVKqiGLy" version="21.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-06T01:27:00.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xYfUw18vm_1Jp39n9lNX" version="21.1.4" type="github" pages="2">
   <diagram name="第 1 页" id="yRTcvgwqnwbz2P0TRHEY">
     <mxGraphModel dx="1674" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,10 +37,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K2XPBF-0tJE14FZxpp1C" name="第 2 页">
-    <mxGraphModel dx="1674" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="2999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="113" y="-2154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-2206" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-3" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-1697" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-5" target="S5EfxCt9ZA9I5zl1k_3b-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-5" value="获取inp文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-2153" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-7" target="S5EfxCt9ZA9I5zl1k_3b-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-7" value="提取inp文件表面节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-2088" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-9" target="S5EfxCt9ZA9I5zl1k_3b-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-9" value="将inp文件转成obj文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-2029" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-10" target="S5EfxCt9ZA9I5zl1k_3b-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-10" value="重写obj文件，修改obj文件中顶点颜色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-1959" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-12" target="S5EfxCt9ZA9I5zl1k_3b-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-12" value="调用MeshLab的Python接口进行优化，使用laplacian和taubin及butterfly等进行平滑处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-1883" width="120" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="S5EfxCt9ZA9I5zl1k_3b-14" target="S5EfxCt9ZA9I5zl1k_3b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5EfxCt9ZA9I5zl1k_3b-14" value="输出obj文件及日志结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="53" y="-1763" width="120" height="39" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
