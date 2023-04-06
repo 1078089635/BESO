@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T02:12:27.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6MyXkuadhcgQ7FvyxXb4" version="21.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-06T03:14:09.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ElOgz43-Ze39k6IVWQ1d" version="21.1.4" type="github" pages="4">
   <diagram name="第 1 页" id="yRTcvgwqnwbz2P0TRHEY">
     <mxGraphModel dx="1674" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K2XPBF-0tJE14FZxpp1C" name="第 2 页">
-    <mxGraphModel dx="1674" dy="3164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="3164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,6 +131,23 @@
         </mxCell>
         <mxCell id="17nzBRZrMXOSq_7ffBzN-54" value="&lt;font color=&quot;#000066&quot;&gt;*PART&lt;br&gt;......&lt;br&gt;*END PART&lt;br&gt;&lt;br&gt;......&lt;br&gt;*ASSEMBLY&lt;br&gt;*INSTANCE&lt;br&gt;&lt;br&gt;......&lt;br&gt;*END INSTANCE&lt;br&gt;......&lt;br&gt;*END ASSEMBLY&lt;br&gt;......&lt;br&gt;*STEP&lt;br&gt;......&lt;br&gt;*END STEP&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="252" y="-188" width="163" height="562" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y6xcKWJjnnKYyva7bDXR" name="第 4 页">
+    <mxGraphModel dx="683" dy="2702" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-7" value="提取inp文件表面节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="267" y="-2025" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-25" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#994C00;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="387" y="-2076.75" width="57" height="140.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvesvv5T-Nlvdv2TcPlf-26" value="定义函数inpReader&lt;br&gt;处理原始inp文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="444" y="-2097" width="120" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
