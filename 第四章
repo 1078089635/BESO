@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T01:30:10.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uQMmmBpPJQA0BGoTB0i4" version="21.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-06T01:57:49.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vvdROlCew6No7cCrxEqh" version="21.1.4" type="github" pages="3">
   <diagram name="第 1 页" id="yRTcvgwqnwbz2P0TRHEY">
     <mxGraphModel dx="1674" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K2XPBF-0tJE14FZxpp1C" name="第 2 页">
-    <mxGraphModel dx="1518" dy="3105" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="3164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,50 @@
         </mxCell>
         <mxCell id="S5EfxCt9ZA9I5zl1k_3b-14" value="输出obj文件及日志结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="53" y="-1763" width="120" height="39" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="It2ZuIstX7SFkYzjTNW2" name="第 3 页">
+    <mxGraphModel dx="2195" dy="1037" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-32" value="整个模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-408" y="-50" width="84" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-34" value="整个模型（Model）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#FF8000;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="80" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-36" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="-105.5" width="358" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="27" y="5" width="206" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-38" value="数据块&lt;br&gt;Assembly" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-104" y="80" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-39" value="Instance&lt;br&gt;数据块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="53" y="80" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="185" y="60" width="45" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-43" value="Part&lt;br&gt;数据块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="59" y="-69" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-44" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-91" width="45" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-45" value="Step&lt;br&gt;数据块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="59" y="235" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="185" y="213" width="45" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="17nzBRZrMXOSq_7ffBzN-47" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC6600;" vertex="1" parent="1">
+          <mxGeometry x="243" y="-105.5" width="201" height="402.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
