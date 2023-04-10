@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T02:52:38.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="v30LSojT6fAcanC5jxEy" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T03:10:03.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lJv7CxTnmkKJy_aSKMoX" version="21.1.4" type="github">
   <diagram name="第 1 页" id="phENBI9sz1u5HpmOegjp">
-    <mxGraphModel dx="1050" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,13 +34,15 @@
         <mxCell id="2GED-oKlP-oh9KLrhQt5-21" value="ABAQUS/CAE" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
           <mxGeometry x="18" y="186" width="83" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="2GED-oKlP-oh9KLrhQt5-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-22" target="2GED-oKlP-oh9KLrhQt5-31">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2GED-oKlP-oh9KLrhQt5-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="173" y="298" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2GED-oKlP-oh9KLrhQt5-22" value="ABAQUS/CAE&lt;br&gt;Kernel" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
           <mxGeometry x="120.5" y="246" width="105" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="2GED-oKlP-oh9KLrhQt5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-31" target="2GED-oKlP-oh9KLrhQt5-35">
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-31" target="2GED-oKlP-oh9KLrhQt5-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GED-oKlP-oh9KLrhQt5-31" value="INP文件" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
@@ -55,7 +57,7 @@
         <mxCell id="2GED-oKlP-oh9KLrhQt5-35" value="Abaqus/Standard&lt;br&gt;Abaqus/Exlicit" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
           <mxGeometry x="107.87" y="416" width="130.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2GED-oKlP-oh9KLrhQt5-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2GED-oKlP-oh9KLrhQt5-40">
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.482;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2GED-oKlP-oh9KLrhQt5-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="173" y="484" as="sourcePoint" />
           </mxGeometry>
@@ -86,6 +88,93 @@
         </mxCell>
         <mxCell id="2GED-oKlP-oh9KLrhQt5-49" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillStyle=auto;fillColor=none;strokeColor=#FFB570;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="7" y="514" width="345" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-50" value="前处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="391.5" y="187" width="61" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-51" value="求解" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="394.5" y="426" width="58" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-52" value="后处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="393" y="569" width="58" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-52" target="2GED-oKlP-oh9KLrhQt5-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-61" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillStyle=auto;fillColor=none;strokeColor=#FFB570;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="113" width="128" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-62" value="Part模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="118" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-63" value="Property模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-64" value="Assembly模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="201" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-65" value="Step模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="242" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-66" value="Interaction模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="282" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-67" value="Load模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="323" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-68" value="Mesh模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="364" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-70" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357" y="443" as="sourcePoint" />
+            <mxPoint x="395" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-72" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.013;exitY=0.479;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-30" target="2GED-oKlP-oh9KLrhQt5-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="441" as="sourcePoint" />
+            <mxPoint x="390" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-73" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2GED-oKlP-oh9KLrhQt5-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="584" as="sourcePoint" />
+            <mxPoint x="405" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="441" as="sourcePoint" />
+            <mxPoint x="484" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="2GED-oKlP-oh9KLrhQt5-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="462" y="212" as="sourcePoint" />
+            <mxPoint x="492" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-76" value="Job模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="495" y="422" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-78" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="453" y="586" as="sourcePoint" />
+            <mxPoint x="477" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-79" value="Visualization模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="496.5" y="512" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-80" value="XYPlot模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="496.5" y="557" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-81" value="OdbAccess模块" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="496.5" y="602" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2GED-oKlP-oh9KLrhQt5-82" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillStyle=auto;fillColor=none;strokeColor=#FFB570;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="504" width="121" height="138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
