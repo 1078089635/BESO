@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T03:18:38.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="v3mr92K0Cw4Qt2hgBMFu" version="21.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-10T07:19:08.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-7HBVsAOJR5fLdDx5SDr" version="21.1.4" type="github" pages="2">
   <diagram name="第 1 页" id="phENBI9sz1u5HpmOegjp">
-    <mxGraphModel dx="1235" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GED-oKlP-oh9KLrhQt5-33" value="Python脚本" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
-          <mxGeometry x="18" y="331" width="81" height="38" as="geometry" />
+          <mxGeometry x="259" y="332.5" width="81" height="35" as="geometry" />
         </mxCell>
         <mxCell id="2GED-oKlP-oh9KLrhQt5-35" value="Abaqus/Standard&lt;br&gt;Abaqus/Exlicit" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
           <mxGeometry x="107.87" y="416" width="130.25" height="60" as="geometry" />
@@ -175,6 +175,39 @@
         </mxCell>
         <mxCell id="2GED-oKlP-oh9KLrhQt5-82" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillStyle=auto;fillColor=none;strokeColor=#FFB570;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="484.5" y="504" width="121" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#33FFFF;fontColor=#ffffff;strokeColor=#003300;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="229" y="822" width="20" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-3" value="运行Python脚本方式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="112" y="873.5" width="115" height="25.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-4" value="界面下运行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="252" y="808.5" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-5" value="命令行运行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="252" y="950" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#33FFFF;fontColor=#ffffff;strokeColor=#003300;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="372" y="769" width="28.5" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-7" value="Run Script运行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="404" y="755" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-8" value="宏运行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="404" y="808.5" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-9" value="PDE运行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="404" y="857" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#33FFFF;fontColor=#ffffff;strokeColor=#003300;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="369" y="925" width="28.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-11" value="启动界面的同时运行Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="405" y="915" width="114" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy0DtW-QhkunRUyvgUU-14" value="不启动界面的同时运行Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="976" width="119" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
