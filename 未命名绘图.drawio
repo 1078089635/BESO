@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T02:35:03.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="N4f_1LijabocJWMWd0AC" version="21.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-23T00:12:55.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DdZfYldOjY7kJ2yax2yi" version="21.1.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2100" dy="1082" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -121,14 +121,190 @@
         <mxCell id="vmh0bnFjDrF1hgYEoPJp-58" value="满足" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="168" y="498" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QZ7dPZw25LmrrLpRT-9b-0" target="j5l6B9hrlVE8XBGGhiyx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZ7dPZw25LmrrLpRT-9b-0" value="定义设计域，设置约束及载荷" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650.5" y="647" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j5l6B9hrlVE8XBGGhiyx-0" target="QZ7dPZw25LmrrLpRT-9b-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-0" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="659" y="596" width="72" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j5l6B9hrlVE8XBGGhiyx-1" target="j5l6B9hrlVE8XBGGhiyx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-1" value="建立有限元模型" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650.5" y="711" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j5l6B9hrlVE8XBGGhiyx-4" target="j5l6B9hrlVE8XBGGhiyx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-4" value="设计变量的初始化" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650.5" y="778" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j5l6B9hrlVE8XBGGhiyx-7" target="j5l6B9hrlVE8XBGGhiyx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-7" value="进行有限元分析" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650.5" y="839" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j5l6B9hrlVE8XBGGhiyx-9" target="j5l6B9hrlVE8XBGGhiyx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-9" value="计算结构柔度、灵敏度、进行网格过滤" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="649" y="903" width="90.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j5l6B9hrlVE8XBGGhiyx-11" target="j5l6B9hrlVE8XBGGhiyx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-11" value="OC优化准则进行设计变量优化" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="648.25" y="977" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="j5l6B9hrlVE8XBGGhiyx-14" value="柔度变化量是否满足公式要求" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="594.5" y="1042" width="198.75" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="49NRfRL3p3wWFCY82gsV" name="第 2 页">
-    <mxGraphModel dx="1050" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-3" target="eiAp-Zk2oFC-iutRrrqX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-3" value="定义设计域，设置约束及载荷" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="497" y="384" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-5" target="eiAp-Zk2oFC-iutRrrqX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-5" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="505.5" y="333" width="72" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-7" target="eiAp-Zk2oFC-iutRrrqX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-7" value="建立有限元模型" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="497" y="448" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-9" target="eiAp-Zk2oFC-iutRrrqX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-9" value="设计变量的初始化" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="497" y="515" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-11" target="eiAp-Zk2oFC-iutRrrqX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-11" value="进行有限元分析" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="497" y="576" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-13" target="eiAp-Zk2oFC-iutRrrqX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-13" value="计算结构柔度、灵敏度、进行网格过滤" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="495.5" y="640" width="90.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-15" target="eiAp-Zk2oFC-iutRrrqX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-15" value="OC优化准则进行设计变量优化" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="494.75" y="714" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-16" target="zO4m_aIl8gCNfiFctKDO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eiAp-Zk2oFC-iutRrrqX-16" target="eiAp-Zk2oFC-iutRrrqX-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="689" y="820" />
+              <mxPoint x="689" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eiAp-Zk2oFC-iutRrrqX-16" value="柔度变化量是否满足公式要求" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="441" y="779" width="198.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-16" value="满足" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="526.38" y="859" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-17" target="zO4m_aIl8gCNfiFctKDO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-17" value="输出设计变量" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="495.13" y="894" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-20" value="不满足" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="794" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-21" target="zO4m_aIl8gCNfiFctKDO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-21" value="对设计变量进行有限元分析" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="243.37" y="327" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-23" target="zO4m_aIl8gCNfiFctKDO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-23" value="提取结构柔度值" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="243.37" y="400" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-26" target="zO4m_aIl8gCNfiFctKDO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-26" value="根据应变能计算单元灵敏度" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="243.37" y="479" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-28" target="zO4m_aIl8gCNfiFctKDO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-28" value="过滤、平均灵敏度值" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="243.37" y="558" width="91.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.0842857142858" y="730.0359389038636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-30" value="根据灵敏度更新设计变量完成单元增删" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="238" y="632" width="102" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-32" target="zO4m_aIl8gCNfiFctKDO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="773" />
+              <mxPoint x="150" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zO4m_aIl8gCNfiFctKDO-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.0842857142858" y="809.9640610961364" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-32" value="是否满足收敛条件" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="189.62" y="732" width="198.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-35" value="不满足" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="162" y="726" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zO4m_aIl8gCNfiFctKDO-36" target="zO4m_aIl8gCNfiFctKDO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-36" value="输出拓扑优化结果" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#FFD966;fillColor=#FFF2CC;strokeColor=#D6B656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="238" y="840" width="102" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-38" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="253" y="893" width="72" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="zO4m_aIl8gCNfiFctKDO-41" value="满足" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="812" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
